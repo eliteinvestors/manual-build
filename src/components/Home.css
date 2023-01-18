@@ -1,0 +1,222 @@
+.dashboard-box{
+    /* background-color: aqua; */
+}
+
+.container1{
+    width: 300px;
+    background-color: rgb(238, 238, 238);
+
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    margin-top: 3%;
+    text-align: center;
+    box-shadow: 0 15px 25px rgba(0,0,0,.1);
+    border-radius: 10px;
+    margin-bottom: 4vh;
+  }
+
+.outer-box{
+    background-color: rgb(238, 238, 238);
+    border-radius: 15px;
+    width: 70vw;
+    margin-left: 15vw;
+    overflow: hidden;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding:30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4vh;
+}
+
+.outer-box:hover {
+    background: rgb(241, 241, 241);
+    color: #000;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+
+
+.prop-img{
+    height: 30vh;
+    border-radius: 10px;
+}
+
+.text-box{
+    flex: 1;
+    padding-left: 40px;
+}
+
+.text h5{
+
+  font-size: 18px;
+    font-family:  "Proxima Nova", sans-serif;
+
+}
+
+.height{
+  line-height: 1px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.button-box ul {
+  font-size: 13px;
+  list-style: none;
+  margin-top: 20px;}
+
+  .button-box li {
+  /* position: relative; */
+  margin-top: 25px;
+}
+
+.button-box button{
+    padding: 9px;
+    border-style: none;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  
+  }
+  
+  .button-box button:hover {
+    background-color: #e7e7e7;
+  }
+
+  .outer-box p{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 22px;
+  
+  }
+  
+  .img-box-seeking{
+    background-color: rgb(21, 100, 21);
+    border-radius: 20px;
+  }
+  
+  .img-box-pending{
+    background-color: rgb(174, 199, 33);
+    border-radius: 20px;
+  }
+  .img-box-sold{
+    background-color: brown;
+    border-radius: 20px;
+  }
+  .img-box-reserved{
+    background-color: rgba(0, 0, 139, 0.842);
+    border-radius: 20px;
+  }
+  .img-box-accepting{
+    background-color: rgba(3, 115, 206, 0.829);
+    border-radius: 20px;
+  }
+  
+  h3{
+    text-align: center;
+  }
+
+  .modal-styles{
+    background: linear-gradient(
+      to top,
+      white 0%,
+      white 90%,
+      #284b63 10%,
+      #284b63 100%
+      
+    );
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 50px;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    width: 500px;
+    border-radius: 15px;
+  }
+
+  .overlay-styles{
+    position:static;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.7);
+    z-index: 1000;
+  }
+
+  .modal-styles h6{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 22px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+
+  .decline-box{
+    text-align: center;
+  }
+  
+
+  .reason{
+      margin-bottom: 12px;
+      background-color: white;
+      font-size: 15px;
+      width: 100%;
+      
+  }
+
+  @media only screen and (max-width: 1250px) {
+    .outer-box{
+        width: 90vw;
+        margin-left: 5vw;
+        display: flex;
+        /* flex-direction: column; */
+        margin-bottom: 4vh;
+    }
+    /* .text-box{
+        flex: 1;
+        padding-left: 0px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    } */
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .outer-box{
+        width: 70vw;
+        margin-left: 15vw;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 4vh;
+    }
+    .text-box{
+        flex: 1;
+        padding-left: 0px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .outer-box{
+        width: 90vw;
+        margin-left: 5vw;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 4vh;
+    }
+    .text-box{
+        flex: 1;
+        padding-left: 0px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+  }
